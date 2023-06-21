@@ -7,12 +7,14 @@ const columns = [
     headerName: "股票代碼",
     headerAlign: "center",
     align: "center",
+    minWidth: 150,
   },
   {
     field: "name",
     headerName: "股票名稱",
     headerAlign: "center",
     align: "center",
+    minWidth: 150,
   },
   {
     field: "trend",
@@ -27,6 +29,7 @@ const columns = [
     },
     headerAlign: "center",
     align: "right",
+    minWidth: 150,
   },
   {
     field: "price",
@@ -40,6 +43,7 @@ const columns = [
     },
     headerAlign: "center",
     align: "right",
+    minWidth: 150,
   },
   {
     field: "growth",
@@ -53,6 +57,7 @@ const columns = [
     },
     headerAlign: "center",
     align: "right",
+    minWidth: 150,
   },
   {
     field: "growthPercent",
@@ -66,6 +71,7 @@ const columns = [
     },
     headerAlign: "center",
     align: "right",
+    minWidth: 150,
   },
   {
     field: "open",
@@ -75,6 +81,7 @@ const columns = [
     },
     headerAlign: "center",
     align: "right",
+    minWidth: 150,
   },
   {
     field: "volume",
@@ -84,6 +91,7 @@ const columns = [
     },
     headerAlign: "center",
     align: "center",
+    minWidth: 150,
   },
   {
     field: "tradeValue",
@@ -93,6 +101,7 @@ const columns = [
     },
     headerAlign: "center",
     align: "center",
+    minWidth: 160,
   },
 ];
 
